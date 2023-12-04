@@ -1,0 +1,31 @@
+tr:last-child {
+    background-attachment: gold;
+}
+
+tr:hover {
+    background-color: chocolate;
+}
+
+.text {
+    background-color: cyan;
+}
+
+.qaz {
+    background-color: blue;
+}
+
+input:focus {
+    background-color: blueviolet;
+}
+
+.parent{
+    width: 0;
+    font-size: 0;
+}
+
+p:hover+.parent {
+    background-color: chocolate;
+    width: 400px;
+    height: 100px;
+    font-size: 14px;
+}
